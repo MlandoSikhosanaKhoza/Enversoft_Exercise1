@@ -10,15 +10,14 @@ namespace Enversoft_Exercise1
     {
         public int[] GetCommonNumbers(int[] list1, int[] list2)
         {
+            List<int> firstList = list1.ToList();
+            List<int> secondList = list2.ToList();
             List<int> commonNumbers=new List<int>();
-            for (int i = 0; i < list1.Length; i++)
+            foreach (int number in firstList)
             {
-                for (int j = 0; j < list2.Length; j++)
+                if (secondList.Contains(number))
                 {
-                    if (list1[i] == list2[j])
-                    {
-                        commonNumbers.Add(list1[i]);
-                    }
+                    commonNumbers.Add(number);
                 }
             }
             return commonNumbers.ToArray();

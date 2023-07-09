@@ -22,4 +22,8 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Enversoft_Exercise1\Enversoft_Exercise1.csproj" />
+  </ItemGroup>
+
 </Project>
