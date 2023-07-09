@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enversoft_Exercise1", "Enversoft_Exercise1\Enversoft_Exercise1.csproj", "{FFF51D6A-82D1-4B00-B1A5-701FD6338B87}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FFF51D6A-82D1-4B00-B1A5-701FD6338B87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFF51D6A-82D1-4B00-B1A5-701FD6338B87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFF51D6A-82D1-4B00-B1A5-701FD6338B87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFF51D6A-82D1-4B00-B1A5-701FD6338B87}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0EC67C4C-B117-40CD-A1C3-39EFE80EA8F0}
+	EndGlobalSection
+EndGlobal
