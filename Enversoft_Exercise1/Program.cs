@@ -21,7 +21,7 @@ namespace ConsoleApplication1
 
             #region B - Exclude all but list 1
 
-            int[] list4 = new int[] { };
+            int[] list4 = list1.Where(l1=>!list2.Any(l2=>l1==l2)).Select(l3=>l3).ToArray();
             Console.WriteLine(string.Join(" ", list4));
 
             #endregion B - Exclude all but list 1
