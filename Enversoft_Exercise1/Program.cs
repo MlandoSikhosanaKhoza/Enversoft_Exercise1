@@ -9,10 +9,10 @@ namespace ConsoleApplication1
             int[] list1 = new int[] { 1, 2, 3, 4, 5 };
             int[] list2 = new int[] { 3, 4, 5, 6, 7 };
             //a. Show the common elements in both lists. E.g the common elements are "3 4 5", because they are contained in both lists.
-            
+
             #region A - Common Elements
 
-            int[] list3 = new int[] { };
+            int[] list3 = list1.Where(l1 => list2.Any(l2 => l1 == l2)).Select(l3 =>l3).ToArray();
             Console.WriteLine(string.Join(" ", list3));
 
             #endregion A - Common Elements
