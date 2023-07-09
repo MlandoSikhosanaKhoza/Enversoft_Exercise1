@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Enversoft_Exercise1;
+using System;
 namespace ConsoleApplication1
 {
     class Program
@@ -11,8 +12,12 @@ namespace ConsoleApplication1
             //a. Show the common elements in both lists. E.g the common elements are "3 4 5", because they are contained in both lists.
 
             #region A - Common Elements
+            //LINQ Version
+            int[] list3 = list1.Where(l1 => list2.Any(l2 => l1 == l2)).ToArray();
 
-            int[] list3 = list1.Where(l1 => list2.Any(l2 => l1 == l2)).Select(l3 =>l3).ToArray();
+            //It came to me that you might want me to demonstrate in a more algorithmic approach
+            IdentifyCommonNumbers commonNumbers = new IdentifyCommonNumbers();
+            list3=commonNumbers.GetCommonNumbers(list1, list2);
             Console.WriteLine(string.Join(" ", list3));
 
             #endregion A - Common Elements
@@ -21,7 +26,7 @@ namespace ConsoleApplication1
 
             #region B - Exclude all but list 1
 
-            int[] list4 = list1.Where(l1=>!list2.Any(l2=>l1==l2)).Select(l3=>l3).ToArray();
+            int[] list4 = list1.Where(l1=>!list2.Any(l2=>l1==l2)).ToArray();
             Console.WriteLine(string.Join(" ", list4));
 
             #endregion B - Exclude all but list 1
