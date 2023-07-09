@@ -5,6 +5,8 @@ VisualStudioVersion = 17.5.33530.505
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enversoft_Exercise1", "Enversoft_Exercise1\Enversoft_Exercise1.csproj", "{FFF51D6A-82D1-4B00-B1A5-701FD6338B87}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enversoft_Exercise1.Test", "Enversoft_Exercise1.Test\Enversoft_Exercise1.Test.csproj", "{DE3472C5-52AD-4D73-A135-2AB32C6238AE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{FFF51D6A-82D1-4B00-B1A5-701FD6338B87}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FFF51D6A-82D1-4B00-B1A5-701FD6338B87}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FFF51D6A-82D1-4B00-B1A5-701FD6338B87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE3472C5-52AD-4D73-A135-2AB32C6238AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE3472C5-52AD-4D73-A135-2AB32C6238AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE3472C5-52AD-4D73-A135-2AB32C6238AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE3472C5-52AD-4D73-A135-2AB32C6238AE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
